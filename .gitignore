@@ -1,0 +1,52 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# .NET
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.mdb
+
+# Nuke build
+.nuke/
+
+# Entity Framework Migrations binary artifacts
+*Migrations/*.Designer.cs
+
+# ASP.NET logs
+logs/
+*.log
+
+# App settings (optional — keep if you don’t want secrets committed)
+appsettings.Development.json
+
+# SQLite database
+*.db
+*.db-journal
+
+# Temp files
+*.tmp
+*.temp
+
+# NuGet packages
+*.nupkg
+packages/
+*.snupkg
+
+# Rider / JetBrains
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
